@@ -1,0 +1,16 @@
+:root{--bg:#ffffff;--texto:#1d1f24;--fraco:#5b6170;--linha:#e4e6eb;--ouro:#c97b12}
+@media (prefers-color-scheme:dark){:root{--bg:#111318;--texto:#e8eaf0;--fraco:#9aa1b0;--linha:#2a2f3a;--ouro:#f2b544}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--texto);font:16px/1.65 "Segoe UI",system-ui,-apple-system,sans-serif}
+main{max-width:760px;margin:0 auto;padding:40px 20px 80px}
+header{display:flex;align-items:center;gap:14px;margin-bottom:28px}
+header img{width:48px;height:48px;border-radius:12px}
+header b{font-size:22px}
+h1{font-size:28px;margin:0 0 6px}
+h2{font-size:19px;margin:30px 0 8px}
+p,li{color:var(--texto)}
+.data{color:var(--fraco);font-size:14px;margin:0 0 24px}
+nav{display:flex;gap:16px;flex-wrap:wrap;margin:8px 0 28px;font-size:15px}
+a{color:var(--ouro)}
+hr{border:0;border-top:1px solid var(--linha);margin:40px 0}
+footer{color:var(--fraco);font-size:14px;margin-top:40px}
